@@ -1,0 +1,6 @@
+graphviz==2.38
+ipykernel==5.3.4
+neat-python==0.92
+numpy==1.22.0
+pybullet==3.1.7
+pyquaternion==0.9.9
