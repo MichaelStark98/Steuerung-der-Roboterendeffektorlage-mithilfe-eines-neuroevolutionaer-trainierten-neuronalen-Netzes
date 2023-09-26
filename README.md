@@ -15,13 +15,9 @@ Diese können mit dem Befehl:
 
 ```sh 
 pip install numpy
-
 pip install neat-python
-
 pip install pybullet
-
 pip install pyquaternion
-
 pip install gaphviz
 ``` 
 
