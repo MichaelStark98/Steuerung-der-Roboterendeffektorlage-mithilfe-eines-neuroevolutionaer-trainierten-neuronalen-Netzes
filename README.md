@@ -15,17 +15,13 @@ Diese können mit dem Befehl:
 
 ```sh 
 pip install numpy
-``` 
-```sh 
+
 pip install neat-python
-``` 
-```sh 
+
 pip install pybullet
-``` 
-```sh 
+
 pip install pyquaternion
-``` 
-```sh 
+
 pip install gaphviz
 ``` 
 
