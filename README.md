@@ -14,10 +14,22 @@ Um das Repository vollständig zu nutzen, müssen folgende Packages installiert 
 Diese können mit dem Befehl: 
 
 ```sh 
-pip install ...
+pip install numpy
+``` 
+```sh 
+pip install neat-python
+``` 
+```sh 
+pip install pybullet
+``` 
+```sh 
+pip install pyquaternion
+``` 
+```sh 
+pip install gaphviz
 ``` 
 
-installiert werden. Dabei muss anstelle von ... die obenegenannten Package-Namen. Falls Probleme beim Installieren auftreten oder genauere Details zu den Packages erwünscht sind, gibt es für [neat](https://github.com/CodeReclaimers/neat-python), [pyquaternion](https://github.com/KieranWynn/pyquaternion) und [pybullet](https://github.com/bulletphysics/bullet3) bereits bestehende Repositorys.
+installiert werden. Falls Probleme beim Installieren auftreten oder genauere Details zu den Packages erwünscht sind, gibt es für [neat](https://github.com/CodeReclaimers/neat-python), [pyquaternion](https://github.com/KieranWynn/pyquaternion) und [pybullet](https://github.com/bulletphysics/bullet3) bereits bestehende Repositorys.
 
 ## Notebooks
 
