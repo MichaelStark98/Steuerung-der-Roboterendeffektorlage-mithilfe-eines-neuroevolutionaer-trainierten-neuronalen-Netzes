@@ -2,7 +2,7 @@
 
 Dieses Repository befasst sich mit der Positions- und Orientierungssteuerung eines Roboterendeffektors. Dabei wurden mit zwei verschiedenen Jupyter Notebooks neuronale Netze generiert die Position oder Orientierung steuern können. Bei der Orientierung gibt es leider Probleme da bei der Orientierungsdarstellung mit Quaternionen die Fitnessfunktion nicht eindeutig identifizieren kann welche Änderung der Orientierung ein besseres Ergebnis liefert. Aus diesem Grund sind im Notebook zur Orientierung lediglich Versuche die misslungen sind. Sie können allerdings als Ansatz für weitergehende Projekte genutzt werden. Die Arbeit selber basiert auf eier Abschlusarbeit zum Thema *Erstellen eines neuronalen Netzes zur Steuerung eines Roboterarmes durch neuronevolutionäre Algorithmen*, weshalb bei ungeklärten oder unerklärten Dateien [hier](https://github.com/PIX3LFLUX/NeuRobotics) nachgelesen werden kann.
 
-## Benötigte Packages 
+## Pakete
 
 Um das Repository vollständig zu nutzen, müssen folgende Packages installiert werden:
 + numpy
@@ -11,7 +11,7 @@ Um das Repository vollständig zu nutzen, müssen folgende Packages installiert 
 + pyquaternion
 + graphviz
 
-Diese können mit dem Befehl: 
+Diese können mit den Befehlen: 
 
 ```sh 
 pip install numpy
@@ -33,12 +33,12 @@ Das dritte und vierte Notebook sind OrientierungEvolution.ipynb und PositionEvol
 
 Das Letzte Notebook Netz-Test.ipynb ist zum Testen des Ergebnisses der Evolution. Das Netz, welches am Ende der Evolution gespeichert wird kann in diesem Programm als Input angegeben werden. Dieses Netz wird dann 100 Zielpunkte anfahren und die Distanz zum Zielpunkt ermittelt. Anschließend gibt es dann eine Auswertung welche anzeigt in welchem Wertebereich die Distanzen zu den Zielpunkten lagen.
 
-## Vorgehen
+## Benutzung des Repositorys
 1.	Diese Repository Klonen.
 2.	Die Packages wie oben im Abschnitt benötigte Packages installieren.
 3.	Einmal das CreatePositions Notebook ausführen. Dabei darauf achten, dass je nach Anwendung nicht alle Teile des Programms nötig sind.
 4.	Nun kann die entsprechende Config Datei (config_or für die Orientierung, config_pos für die Position) angepasst werden damit der NEAT-Algorithmus so arbeitet wie erwünscht. 
 5.	Wenn alle vorherigen Schritte durchgeführt wurden, kann nun das Evolutions-Notebook ausgeführt werden. Dabei kann zwischen verschiedenen Fitnessfunktionen gewählt werden. Bei der Orientierung gibt es auch verschiedene Distanzmaße, die getestet werden können.
-7.	Um nun die Qualität des Netzes zu testen kann nun das gespeicherte Netz im Notebook Netz-Test reingeladen werden und die Präzision von diesem ermittelt werden.
+6.	Um nun die Qualität des Netzes zu testen kann nun das gespeicherte Netz im Notebook Netz-Test reingeladen werden und die Präzision von diesem ermittelt werden.
 
 
