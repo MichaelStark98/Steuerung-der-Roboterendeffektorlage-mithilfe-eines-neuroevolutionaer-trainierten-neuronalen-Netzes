@@ -4,7 +4,7 @@ Dieses Repository befasst sich mit der Positions- und Orientierungssteuerung ein
 
 ## Pakete
 
-Um das Repository vollständig zu nutzen, müssen folgende Packages installiert werden:
+Um das Repository vollständig zu nutzen, müssen folgende Pakete installiert werden:
 + numpy
 + neat-python
 + pybullet
@@ -25,7 +25,7 @@ installiert werden. Falls Probleme beim Installieren auftreten oder genauere Det
 
 ## Notebooks
 
-Dieses Repository besteht aus 5 Jupyter-Notebooks. Das Notebook RoboterBewegen.ipynb ermöglicht es dem Nutzer den Roboter zu Steuern. Dabei kann jedes Robotergelenk einzeln bewegt werden. Die benötigten Tasten für jedes Gelenk stehen im Code kommentiert. 
+Dieses Repository besteht aus 5 Jupyter-Notebooks. Das Notebook [RoboterBewegen.ipynb](Alles/RoboterBewegen.ipynb) ermöglicht es dem Nutzer den Roboter zu Steuern. Dabei kann jedes Robotergelenk einzeln bewegt werden. Die benötigten Tasten für jedes Gelenk stehen im Code kommentiert. 
 
 Das zweite Notebook ist CreatePositins.ipynb. Dieses ist die Grundlage für die beiden Evolutionsnoteboks, da hier Roboterlagen bestimmt und gespeichert werden welche vom Roboter angefahren werden können. Ist eine Position außerhalb  der Reichweite des Roboters oder sorgt für eine Selbstkollision des Roboters wird sie nicht für das darauf aufbauende Notebook benutzt.
 
