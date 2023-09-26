@@ -1,5 +1,5 @@
 # Steuerung der Roboterendeffektorlage mithilfe eines neuroevolutionär trainierten neuronalen Netzes
-
+![plot](./Alles/Roboter.PNG)
 Dieses Repository befasst sich mit der Positions- und Orientierungssteuerung eines Roboterendeffektors. Dabei wurden mit zwei verschiedenen Jupyter Notebooks neuronale Netze generiert die Position oder Orientierung steuern können. Bei der Orientierung gibt es leider Probleme da bei der Orientierungsdarstellung mit Quaternionen die Fitnessfunktion nicht eindeutig identifizieren kann welche Änderung der Orientierung ein besseres Ergebnis liefert. Aus diesem Grund sind im Notebook zur Orientierung lediglich Versuche die fehlgeschlagen sind. Sie können allerdings als Ansatz für weitergehende Projekte genutzt werden. Die Arbeit selber basiert auf einer Abschlusarbeit zum Thema *Erstellen eines neuronalen Netzes zur Steuerung eines Roboterarmes durch neuronevolutionäre Algorithmen*, weshalb bei ungeklärten oder unerklärten Dateien [hier](https://github.com/PIX3LFLUX/NeuRobotics) nachgelesen werden kann.
 
 ## Pakete
